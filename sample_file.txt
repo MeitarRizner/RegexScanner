@@ -1,0 +1,8 @@
+This is a sample text file.
+It contains some lines.
+Some of these lines contain the letter a.
+Some of these lines contain the letters ab.
+Some of these lines contain the letters abb.
+Some of these lines contain the letters abbb.
+Some of these lines contain the letters abbbb.
+But not all of these lines contain the letters ab.
