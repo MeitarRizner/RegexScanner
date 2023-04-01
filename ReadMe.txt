@@ -5,7 +5,7 @@ How to use the script:
 4. The available command-line arguments are:
      "-r" or "--regex": The regular expression pattern to search for (required).
      "-f" or "--file": The name of the file to search in (optional).
-     If not provided, the script will read from standard input.
+      If not provided, the script will read from standard input.
      "-u" or "--underscore": Use underscore formatting for output (optional).
      "-c" or "--color": Use color formatting for output (optional).
      "-m" or "--machine": Use machine-readable formatting for output (optional).
@@ -16,3 +16,5 @@ How to use the script:
    If it is not used, the script will read from standard input.
 7. The script will output the matches found using the appropriate formatter based on the command-line arguments.
    If no formatting option is selected, the default formatter will be used.
+   
+sample command: python regex_search.py -r ab* -f sample_file.txt -c
